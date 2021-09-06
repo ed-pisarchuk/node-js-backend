@@ -1,0 +1,55 @@
+{
+  "users": {
+    "1": {
+      "apps": {
+        "users": {
+          "operations": {
+            "read": true,
+            "write": true,
+            "delete": true,
+            "create": true
+          },
+          "fields": {
+            "firstName": {
+              "read": true,
+              "write": true,
+              "delete": true
+            },
+            "lastName": {
+              "read": true,
+              "write": true,
+              "delete": true
+            },
+            "email": {
+              "read": true,
+              "write": true,
+              "delete": true
+            },
+            "password": {
+              "read": true,
+              "write": true,
+              "delete": true
+            },
+            "username": {
+              "read": true,
+              "write": true,
+              "delete": true
+            },
+            "isBlocked": {
+              "read": true,
+              "write": true,
+              "delete": true
+            },
+            "expiredDate": {
+              "read": true,
+              "write": true,
+              "delete": true
+            }
+          }
+        }
+      }
+    }
+  },
+  "groups": {
+  }
+}
